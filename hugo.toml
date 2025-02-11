@@ -1,0 +1,41 @@
+baseURL = 'https://purple-hawk.com'
+languageCode = 'ja-jp'
+title = 'liverHawk Tech'
+theme = "stack"
+
+[markup]
+    defaultMarkdownHandler = "goldmark"
+
+[markup.goldmark]
+    [markup.goldmark.extensions]
+        definitionList = true
+        footnote = true
+        linkify = true
+        strikethrough = true
+        table = true
+        taskList = true
+
+[markup.asciidocext]
+    extensions = ["asciidoctor-diagram"]
+    workingFolderCurrent = true
+    [markup.asciidocext.attributes]
+        source-highlighter = "highlight.js"
+        imagesdir = "images"
+
+[markup.org]
+    highlight = true
+    completions = true
+    smartQuotes = true
+
+[markup.pandoc]
+    command = "pandoc"
+    args = ["--mathjax"]
+
+[markup.rst]
+    baselevel = 2
+    leave-comments = true
+    initial-header-level = 2
+
+[security]
+    [security.exec]
+        allow = ["^asciidoctor$", "^pandoc$", "^rst2html$"]

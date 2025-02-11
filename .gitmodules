@@ -1,0 +1,3 @@
+[submodule "themes/stack"]
+	path = themes/stack
+	url = github.com:CaiJimmy/hugo-theme-stack.git
