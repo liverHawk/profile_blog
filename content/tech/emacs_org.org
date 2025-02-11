@@ -1,0 +1,64 @@
+---
+title: "Emacs_org"
+date: 2025-02-11T18:13:54+09:00
+draft: true
+---
+
+* Hello, world!
+
+** Emacs_org Write
+
+*** Headings
+
+4. level 4
+
+5. level 5
+
+**** level 4
+
+***** level 5
+
+*** Text formatting
+
+It's easy to make some words **bold** and other words /italic/ with Markdown. This _underline_ and +delete+.
+
+*** Links
+
+A link to the [purple-hawk[https://purple-hawk.com]] website.
+
+*** Lists
+
+- Item 1
+- Item 2
+  - Item 2.1
+  - Item 2.2
+
+1. Item 1
+2. Item 2
+   1. Item 2.1
+   2. Item 2.2
+
+**** definition list
+
+term 1 :: definition 1
+term 2 :: definition 2
+
+*** footnote
+
+Here's a footnote reference,[^1] and another.[^longnote]
+
+[^1]: Here is the footnote.
+
+[^longnote]: Here's one with multiple blocks.
+
+    Subsequent paragraphs are indented to show that they belong to the previous footnote.
+
+    The whole paragraph can be indented, or just the first line. In this way, multi-paragraph footnotes work like regular paragraphs.
+
+*** code block
+
+#+BEGIN_SRC js :noweb yes
+function foo() {
+  console.log('foo');
+}
+#+END_SRC

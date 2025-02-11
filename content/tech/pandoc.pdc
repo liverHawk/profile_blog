@@ -1,0 +1,50 @@
+---
+title: "Pandoc"
+date: 2025-02-11T18:16:34+09:00
+draft: true
+---
+
+Pandoc is a universal document converter that allows you to convert files from one markup format into another. It supports a wide range of input and output formats, making it a powerful tool for document processing and publishing.
+
+# Pandoc Syntax
+
+## Headers
+```
+# Header 1
+## Header 2
+### Header 3
+```
+
+## Emphasis
+```
+*italic* or _italic_
+**bold** or __bold__
+```
+
+## Lists
+```
+- Item 1
+- Item 2
+  - Subitem 1
+  - Subitem 2
+```
+
+## Links
+```
+[Link text](http://example.com)
+```
+
+## Images
+```
+![Alt text](image.jpg)
+```
+
+## Code
+```
+`inline code`
+```
+
+```
+block code
+
+
